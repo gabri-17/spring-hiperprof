@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    username: testes
+    url: jdbc:mysql://localhost:3306/spring_hyperprof?useSSL=false&serverTimezone=UTC
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        "[format_sql]": true
+br:
+  com:
+    treinaweb:
+      hyperprof:
+        core:
+          services:
+            token:
+              providers:
+                jjwt:
+                  accessTokenSigningKey: 3,Z~W.)8ka=8?l/<zCCcJ.Ui~ltLe/'[3t%M=+e@tH$r*Z|G`P58GFq_Go5+zdx
+                  accessTokenExpirationInSeconds: 30
+                  refreshTokenSigningKey: ^&$l`pT.fpf~0rp8C@jn,{,Q[QmRjL>rq#va]Qz,"DbieZLu&XJs40t(9#yF]_N
+                  refreshTokenExpirationInSeconds: 60

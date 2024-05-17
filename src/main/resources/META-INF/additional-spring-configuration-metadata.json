@@ -1,0 +1,24 @@
+{
+  "properties": [
+    {
+      "name": "br.com.treinaweb.hyperprof.core.services.token.providers.jjwt.accessTokenSigningKey",
+      "type": "java.lang.String",
+      "description": "Signing key for JWT access tokens"
+    },
+    {
+      "name": "br.com.treinaweb.hyperprof.core.services.token.providers.jjwt.accessTokenExpirationInSeconds",
+      "type": "java.lang.Long",
+      "description": "Expiration time in secons for JWT acess tokens"
+    },
+    {
+      "name": "br.com.treinaweb.hyperprof.core.services.token.providers.jjwt.refreshTokenSigningKey",
+      "type": "java.lang.String",
+      "description": "Signing key for JWT refresh tokens"
+    },
+    {
+      "name": "br.com.treinaweb.hyperprof.core.services.token.providers.jjwt.refreshTokenExpirationInSeconds",
+      "type": "java.lang.Long",
+      "description": "Expiration time in secons for JWT refresh tokens"
+    }
+  ]
+}
